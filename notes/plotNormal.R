@@ -1,0 +1,5 @@
+x = seq(from=-4,to=4,by=0.01)
+plot(x,pnorm(x),type="s")
+lines(x,dnorm(x))
+lines(x,pnorm(x,1,1/2),col="red")
+lines(x,dnorm(x,1,1/2),col="red")
