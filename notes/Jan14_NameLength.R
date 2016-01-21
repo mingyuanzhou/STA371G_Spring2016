@@ -15,7 +15,6 @@ if (Session == 04635){
 }
 
 ##Create 4 subfgures
-attach(mtcars)
 par(mfrow=c(2,2))
 
 hist(NameLen,breaks=seq(0.5,20.5,0.2))
