@@ -1,7 +1,6 @@
 #R Code for STA371G
 #Mingyuan Zhou
 #January 23, 2014
-attach(mtcars)
 par(mfrow=c(2,2))
 
 for (n in c(10,100,1000,10000))
